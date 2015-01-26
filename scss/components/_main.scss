@@ -1,0 +1,23 @@
+// Main
+
+body{
+  background-color: $background;
+  font-family: $helvetica;
+
+  .message {
+    text-align: center;
+    margin: 0 auto;
+    width: 430px;
+    display: block;
+    margin-top: 180px;
+    .box{
+      @include box($lightblue);
+    }
+
+  }
+
+}
+
+
+
+

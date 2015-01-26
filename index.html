@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Setup</title>
+    <link href="css/custom-font.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="handheldfriendly" content="true">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <meta name="mobileoptimized" content="240">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+<div class="message">
+    Can you guest what kind of animal in the box below?
+    <div class="box">click here to reveal
+
+    </div>
+
+
+
+</div>
+<script>
+    $('.box').click(function(){
+        $('.box').html('<div class="animals"><i class="icon-monkey"></i><i class="icon-deer"></i><i class="icon-elephant"></i></div>');
+    });
+</script>
+</body>
+</html>
